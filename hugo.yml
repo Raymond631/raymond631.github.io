@@ -1,0 +1,68 @@
+baseURL: https://geekcun.com/
+title: 极客村
+theme: PaperMod
+
+languageCode: zh-CN
+defaultContentLanguage: zh
+hasCJKLanguage: true
+timeZone: Asia/Shanghai
+
+paginate: 5
+summaryLength: 70
+
+enableRobotsTXT: true
+
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+
+menu:
+  main:
+    - name: 首页
+      pageRef: /
+      weight: -10
+    - name: Linux
+      pageRef: /Linux
+      weight: 10
+    - name: 后端
+      pageRef: /后端
+      weight: 20
+    - name: 工具
+      pageRef: /工具
+      weight: 30
+    - name: 其他
+      pageRef: /其他
+      weight: 40
+
+params:
+  homeInfoParams:
+    Title: "小石头的编程日记"
+    Content: Welcome to my blog
+  mainSections:
+    - Linux
+    - 后端
+    - 工具
+    - 其他
+  DateFormat: "2006-01-02"
+  # 主题颜色
+  defaultTheme: dark
+  # 主题切换器
+  disableThemeToggle: false
+  # 摘要
+  hideSummary: false
+  # 面包屑导航
+  ShowBreadCrumbs: true
+  # 字数统计
+  ShowWordCount: true
+  # 阅读时间
+  ShowReadingTime: true
+  # 文章目录
+  showtoc: true
+  # 展开目录
+  tocopen: true
+  # 代码复制按钮
+  ShowCodeCopyButtons: true
+  # 回到顶部
+  disableScrollToTop: false
+  # 上一篇/下一篇
+  ShowPostNavLinks: true
