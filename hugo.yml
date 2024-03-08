@@ -66,3 +66,6 @@ params:
   disableScrollToTop: false
   # 上一篇/下一篇
   ShowPostNavLinks: true
+  # 备案号
+  beian:
+    icp: 湘ICP备2024042928号-1
