@@ -29,8 +29,9 @@ jobs:
       # 准备Hugo环境
       - name: Hugo setup
         uses: peaceiris/actions-hugo@v2
-        hugo-version: '0.121.2'
-        extended: true
+        with:
+          hugo-version: '0.121.2'
+          extended: true
       # Hugo构建静态站点，默认输出到public目录下
       - name: Build with Hugo
         env:
